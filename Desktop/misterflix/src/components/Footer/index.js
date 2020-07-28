@@ -9,11 +9,11 @@ function Footer() {
         <img src={MisterLogo} alt="Logo Alura" width="130" />
       </a>
       <p>
-          This is a project created in React immersion -
+          This is a project created in React immersion 
         {' '}
-        <a href="https://www.alura.com.br/">
+        {/* <a href="https://www.alura.com.br/">
           Imersão React da Alura
-        </a>
+        </a> */}
       </p>
     </FooterBase>
   );
