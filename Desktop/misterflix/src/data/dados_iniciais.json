@@ -1,0 +1,191 @@
+{
+  "categorias": [
+    {
+      "titulo": "Action",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "F9",
+          "url": "https://www.youtube.com/watch?v=aSiDu3Ywi8E"
+        },
+        {
+          "titulo": "The Batman",
+          "url": "https://www.youtube.com/watch?v=cElcLipGNIA"
+        },
+        {
+          "titulo": "JAMES BOND 007: No Time To Die",
+          "url": "https://www.youtube.com/watch?v=ToA6BygY6qs"
+        },
+        {
+          "titulo": "Free Guy",
+          "url": "https://www.youtube.com/watch?v=BxOS_ekb2mw"
+        },
+        {
+          "titulo": "POWER",
+          "url": "https://www.youtube.com/watch?v=4NZhwESwQfk"
+        },
+        {
+          "titulo": "The King's Man",
+          "url": "https://www.youtube.com/watch?v=0pbLPOrTSsI"
+        },
+        {
+          "titulo": "MORBIUS",
+          "url": "https://www.youtube.com/watch?v=jLMBLuGJTsA"
+        }
+      ]
+    },
+    {
+      "titulo": "Comédia",
+      "cor": "green",
+      "videos": [
+        {
+          "titulo": "JUMANJI: THE NEXT LEVEL",
+          "url": "https://www.youtube.com/watch?v=rBxcF-r9Ibs"
+        },
+        {
+          "titulo": "BAD BOYS FOR LIFE",
+          "url": "https://www.youtube.com/watch?v=jKCj3XuPG8M"
+        },
+        {
+          "titulo": "Sonic The Hedgehog ",
+          "url": "https://www.youtube.com/watch?v=szby7ZHLnkA"
+        },
+        {
+          "titulo": "Dolittle",
+          "url": "https://www.youtube.com/watch?v=FEf412bSPLs"
+        },
+        {
+          "titulo": "MEN IN BLACK: INTERNATIONAL",
+          "url": "https://www.youtube.com/watch?v=BV-WEb2oxLk"
+        },        {
+          "titulo": "Deadpool 2",
+          "url": "https://www.youtube.com/watch?v=D86RtevtfrA"
+        }
+      ]
+    },
+    {
+      "titulo": "Adventure",
+      "cor": "purple",
+      "videos": [
+        {
+          "titulo": "Marvel Studios' Black Widow",
+          "url": "https://www.youtube.com/watch?v=RxAtuMu_ph4"
+        },
+        {
+          "titulo": "Ad Astra",
+          "url": "https://www.youtube.com/watch?v=BsCNKuB93BA"
+        },
+        {
+          "titulo": "Star Wars: The Rise of Skywalker",
+          "url": "https://www.youtube.com/watch?v=8Qn_spdM5Zg"
+        },
+        {
+          "titulo": "Wonder Woman 1984",
+          "url": "https://www.youtube.com/watch?v=sfM7_JLk-84"
+        },
+        {
+          "titulo": "The New Mutants",
+          "url": "https://www.youtube.com/watch?v=W_vJhUAOFpI"
+        },
+        {
+          "titulo": "Jurassic World: Fallen Kingdom ",
+          "url": "https://www.youtube.com/watch?v=vn9mMeWcgoM"
+        }
+      ]
+    },
+    {
+      "titulo": "Terror",
+      "cor": "black",
+      "videos": [
+        {
+          "titulo": "The Invisible Man",
+          "url": "https://www.youtube.com/watch?v=WO_FJdiY9dA"
+        },
+        {
+          "titulo": "Underwater",
+          "url": "https://www.youtube.com/watch?v=jCFWEzIVILc"
+        },
+        {
+          "titulo": "Z",
+          "url": "https://www.youtube.com/watch?v=PbQB_Sav4rQ"
+        },
+        {
+          "titulo": "GRETEL & HANSEL",
+          "url": "https://www.youtube.com/watch?v=QZblQLhKcZQ"
+        },
+        {
+          "titulo": "Candyman",
+          "url": "https://www.youtube.com/watch?v=tlwzuZ9kOQU"
+        },
+        {
+          "titulo": "Antebellum",
+          "url": "https://www.youtube.com/watch?v=AIrzZ18K_3k"
+        }
+      ]
+    },
+    {
+      "titulo": "Thrillers",
+      "cor": "grey",
+      "videos": [
+        {
+          "titulo": "A Quiet Place Part II",
+          "url": "https://www.youtube.com/watch?v=XEMwSdne6UE"
+        },
+        {
+          "titulo": "Extraction",
+          "url": "https://www.youtube.com/watch?v=L6P3nI6VnlY"
+        },
+        {
+          "titulo": "The Hunt",
+          "url": "https://www.youtube.com/watch?v=sowGYbxTPgU"
+        },
+        {
+          "titulo": "The Turning",
+          "url": "https://www.youtube.com/watch?v=rl33gU2APIs"
+        },
+        {
+          "titulo": "The Last Days of American Crime",
+          "url": "https://www.youtube.com/watch?v=iUZMbz-VKDc"
+        },
+        {
+          "titulo": "ANTLERS",
+          "url": "https://www.youtube.com/watch?v=ng5eyOfL8qM"
+        }
+      ]
+    },
+    {
+      "titulo": "Series",
+      "cor": "red",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "MINDHUNTER",
+          "url": "https://www.youtube.com/watch?v=LR3G1lWbnUU"
+        },
+        {
+          "titulo": "Hannibal ",
+          "url": "https://www.youtube.com/watch?v=Es3B24z8fdA"
+        },
+        {
+          "titulo": "Breaking Bad",
+          "url": "https://www.youtube.com/watch?v=ceqOTZnhgY8"
+        },
+        {
+          "titulo": "House of Cards",
+          "url": "https://www.youtube.com/watch?v=9w-O60x1bYk"
+        },
+        {
+          "titulo": "The Boys",
+          "url": "https://www.youtube.com/watch?v=tcrNsIaQkb4"
+        },
+        {
+          "titulo": "The Blacklist",
+          "url": "https://www.youtube.com/watch?v=isz2gUlWptE"
+        }
+      ]
+    }
+  ]
+}
