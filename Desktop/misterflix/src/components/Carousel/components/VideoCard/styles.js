@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
+export const VideoTitle = styled.h1`
+  position: relative;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.3s ease 0s;
+`;
+
 export const VideoCardContainer = styled.a`
+  z-index: 0;
   border: 2px solid;
   border-radius: 4px;
   text-decoration: none;
@@ -18,6 +26,12 @@ export const VideoCardContainer = styled.a`
   display: flex;
   align-items: flex-end;
   padding: 16px;
+  transition: opacity .3s ease 0s;
+
+  &:hover ${VideoTitle},
+  &:focus ${VideoTitle} {
+    opacity: 10;
+  }
 
   transition: opacity .3s;
   &:hover,
