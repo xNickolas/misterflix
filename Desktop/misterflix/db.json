@@ -1,0 +1,34 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "titulo": "Action",
+        "cor": "orange"
+      },
+      {
+        "id": 2,
+        "titulo": "Comedy",
+        "cor": "green"
+      },
+      {
+        "id": 3,
+        "titulo": "Adventure",
+        "cor": "purple"
+      },
+      {
+        "id": 4,
+        "titulo": "Terror",
+        "cor": "black"
+      },
+      {
+        "id": 5,
+        "titulo": "Thrillers",
+        "cor": "grey"
+      },
+      {
+        "id": 6,
+        "titulo": "Tv Shows",
+        "cor": "red"
+      }
+     ]
+}
