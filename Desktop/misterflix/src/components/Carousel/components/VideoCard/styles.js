@@ -15,6 +15,7 @@ export const VideoCardContainer = styled.a`
   overflow: hidden;
   cursor: pointer;
   color: white;
+  border-color: white;
   flex: 0 0 298px;
   width: 298px;
   height: 197px;

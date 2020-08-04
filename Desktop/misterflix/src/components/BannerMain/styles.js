@@ -46,6 +46,11 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  margin-right: 5%;
+  padding-top: 10px;
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(90deg, transparent 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, transparent 100%);
+  border-image-slice: 1;
   @media (max-width: 800px) {
     display: none;
   }
@@ -53,11 +58,13 @@ ContentAreaContainer.Description = styled.p`
 
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 40px;
   line-height: 1;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 0;
+  margin-right: 5%;
+  text-shadow: 0px 0px 5px #FFFFFFB0;
 
   @media (max-width: 800px) {
     font-size: 32px;
@@ -72,6 +79,22 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+@keyframes fadeInAnimation { 
+  0% { 
+    opacity: 0; 
+  } 
+  100% { 
+    opacity: 1; 
+  } 
+} 
+
+
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
@@ -91,7 +114,7 @@ export const BannerMainContainer = styled.section`
   &:before {
     top: 0;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.45);
   }
 
   &:after {
@@ -111,7 +134,7 @@ export const WatchButton = styled.button`
   outline: none;
   border-radius: 5px;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   border: 1px solid transparent;
   color: var(--black);
   background: var(--white);

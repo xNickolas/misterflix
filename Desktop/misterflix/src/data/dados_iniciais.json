@@ -2,7 +2,7 @@
   "categorias": [
     {
       "titulo": "Action",
-      "cor": "orange",
+      "cor": "black",
       "videos": [
         {
           "titulo": "F9",
@@ -36,7 +36,7 @@
     },
     {
       "titulo": "Comedy",
-      "cor": "green",
+      "cor": "black",
       "videos": [
         {
           "titulo": "JUMANJI: THE NEXT LEVEL",
@@ -65,7 +65,7 @@
     },
     {
       "titulo": "Adventure",
-      "cor": "purple",
+      "cor": "black",
       "videos": [
         {
           "titulo": "Marvel Studios' Black Widow",
@@ -125,7 +125,7 @@
     },
     {
       "titulo": "Thrillers",
-      "cor": "grey",
+      "cor": "black",
       "videos": [
         {
           "titulo": "A Quiet Place Part II",
@@ -154,8 +154,8 @@
       ]
     },
     {
-      "titulo": "Series",
-      "cor": "red",
+      "titulo": "Tv Shows",
+      "cor": "black",
       "link_extra": {
         "text": "",
         "url": ""

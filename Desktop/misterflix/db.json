@@ -1,34 +1,263 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Action",
-        "cor": "orange"
-      },
-      {
-        "id": 2,
-        "titulo": "Comedy",
-        "cor": "green"
-      },
-      {
-        "id": 3,
-        "titulo": "Adventure",
-        "cor": "purple"
-      },
-      {
-        "id": 4,
-        "titulo": "Terror",
-        "cor": "black"
-      },
-      {
-        "id": 5,
-        "titulo": "Thrillers",
-        "cor": "grey"
-      },
-      {
-        "id": 6,
-        "titulo": "Tv Shows",
-        "cor": "red"
-      }
-     ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Action",
+      "cor": "black",
+      "description": "porra loca"
+    },
+    {
+      "id": 2,
+      "titulo": "Comedy",
+      "cor": "black",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "titulo": "Adventure",
+      "cor": "black",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "titulo": "Terror",
+      "cor": "black",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "titulo": "Thrillers",
+      "cor": "black",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "titulo": "Tv Shows",
+      "cor": "black",
+      "description": ""
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "FF9",
+      "url" : "https://www.youtube.com/watch?v=aSiDu3Ywi8E" 
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "The Batman",
+      "url": "https://www.youtube.com/watch?v=cElcLipGNIA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "JAMES BOND 007: No Time To Die",
+      "url": "https://www.youtube.com/watch?v=ToA6BygY6qs"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Free Guy",
+      "url": "https://www.youtube.com/watch?v=BxOS_ekb2mw"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "POWER",
+      "url": "https://www.youtube.com/watch?v=4NZhwESwQfk"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "The King's Man",
+      "url": "https://www.youtube.com/watch?v=0pbLPOrTSsI"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "MORBIUS",
+      "url": "https://www.youtube.com/watch?v=jLMBLuGJTsA"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "JUMANJI: THE NEXT LEVEL",
+      "url": "https://www.youtube.com/watch?v=rBxcF-r9Ibs"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "BAD BOYS FOR LIFE",
+      "url": "https://www.youtube.com/watch?v=jKCj3XuPG8M"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Sonic The Hedgehog ",
+      "url": "https://www.youtube.com/watch?v=szby7ZHLnkA"
+    },
+    {
+      "id": 11,
+      "titulo": "Dolittle",
+      "url": "https://www.youtube.com/watch?v=FEf412bSPLs"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "MEN IN BLACK: INTERNATIONAL",
+      "url": "https://www.youtube.com/watch?v=BV-WEb2oxLk"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Deadpool 2",
+      "url": "https://www.youtube.com/watch?v=D86RtevtfrA"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Marvel Studios' Black Widow",
+      "url": "https://www.youtube.com/watch?v=RxAtuMu_ph4"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Ad Astra",
+      "url": "https://www.youtube.com/watch?v=BsCNKuB93BA"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Star Wars: The Rise of Skywalker",
+      "url": "https://www.youtube.com/watch?v=8Qn_spdM5Zg"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Wonder Woman 1984",
+      "url": "https://www.youtube.com/watch?v=sfM7_JLk-84"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "The New Mutants",
+      "url": "https://www.youtube.com/watch?v=W_vJhUAOFpI"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Jurassic World: Fallen Kingdom ",
+      "url": "https://www.youtube.com/watch?v=vn9mMeWcgoM"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "The Invisible Man",
+      "url": "https://www.youtube.com/watch?v=WO_FJdiY9dA"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Underwater",
+      "url": "https://www.youtube.com/watch?v=jCFWEzIVILc"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Z",
+      "url": "https://www.youtube.com/watch?v=PbQB_Sav4rQ"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "GRETEL & HANSEL",
+      "url": "https://www.youtube.com/watch?v=QZblQLhKcZQ"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Candyman",
+      "url": "https://www.youtube.com/watch?v=tlwzuZ9kOQU"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Antebellum",
+      "url": "https://www.youtube.com/watch?v=AIrzZ18K_3k"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "A Quiet Place Part II",
+      "url": "https://www.youtube.com/watch?v=XEMwSdne6UE"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "Extraction",
+      "url": "https://www.youtube.com/watch?v=L6P3nI6VnlY"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "The Hunt",
+      "url": "https://www.youtube.com/watch?v=sowGYbxTPgU"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "The Turning",
+      "url": "https://www.youtube.com/watch?v=rl33gU2APIs"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "The Last Days of American Crime",
+      "url": "https://www.youtube.com/watch?v=iUZMbz-VKDc"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "ANTLERS",
+      "url": "https://www.youtube.com/watch?v=ng5eyOfL8qM"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "MINDHUNTER",
+      "url": "https://www.youtube.com/watch?v=LR3G1lWbnUU"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Hannibal ",
+      "url": "https://www.youtube.com/watch?v=Es3B24z8fdA"
+    },
+    {
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Breaking Bad",
+      "url": "https://www.youtube.com/watch?v=ceqOTZnhgY8"
+    },
+    {
+      "id": 34,
+      "categoriaId": 6,
+      "titulo": "House of Cards",
+      "url": "https://www.youtube.com/watch?v=9w-O60x1bYk"
+    },
+    {
+      "id": 35,
+      "categoriaId": 6,
+      "titulo": "The Boys",
+      "url": "https://www.youtube.com/watch?v=tcrNsIaQkb4"
+    },
+    {
+      "id": 36,
+      "categoriaId": 6,
+      "titulo": "The Blacklist",
+      "url": "https://www.youtube.com/watch?v=isz2gUlWptE"
+    }
+  ]
 }
