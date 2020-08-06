@@ -1,12 +1,12 @@
 import React from 'react';
 import { FooterBase } from './styles';
-import MisterLogo from '../../assets/img/MisterLogo.png';
+import Logo from '../../assets/img/Logo.png';
 
 function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
-        <img src={MisterLogo} alt="Logo Alura" width="130" />
+        <img src={Logo} alt="Logo Alura" width="150" />
       </a>
       <p>
           This is a project created in React immersion 
